@@ -16,12 +16,23 @@ header{
     text-align: center;
 }
 
-img{
-    margin-top: 40px;
+.imgfirst:hover{
+    cursor: pointer;
+    height: 280px;
+    width: 450px;
+}
+
+.imgsecond:hover{
+    cursor: pointer;
+    height: 300px;
     width: 250px;
 }
-img:hover{
+
+
+.imgthird:hover{
     cursor: pointer;
+    height: 280px;
+    width: 450px;
 }
 
 h1{
@@ -29,17 +40,41 @@ h1{
     text-shadow: 1px 20px 20px black;
 }
 
-img{
-    box-shadow: 10px 13px 13px rgb(6 6 0 / 40%);;
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgfirst{
+    height: 250px;
+    margin: 50px 0;
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+.imgsecond{
+    height: 275px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 135px;
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+.imgthird{
+    height: 245px;
+    margin-bottom: 70px;
+    filter: drop-shadow(5px 5px 10px black);
 }
 
 .content{
     text-align: left;
 }
+
 .name{
     /* text-decoration: underline solid blueviolet; */
     margin-top: 25px;
 }
+
 h2{
     text-align: center;
     text-decoration: underline;
@@ -55,7 +90,7 @@ h5{
     font-size: larger;
 }
 
-div{
+.content{
     margin: 100px;
     padding: 100px;
     border: 5px solid rgb(33, 117, 5) ;
@@ -64,9 +99,8 @@ div{
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    box-shadow: 0px 20px 20px 1px rgb(4 52 10); ;
+    box-shadow: 0px 20px 20px 1px rgb(4 52 10) ;
 }
-
 
 footer{
     text-align: center;
