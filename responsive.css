@@ -1,0 +1,10 @@
+header .image{
+    display: flex;
+}
+
+@media screen and (max-width:1040px) {
+    header .image{
+        flex-direction: column;
+        text-align: center;
+    }
+}
